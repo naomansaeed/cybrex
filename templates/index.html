@@ -1,0 +1,14 @@
+<!-- wp:template-part {"slug":"header"} /-->
+<!-- wp:group {"tagName":"main","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}}} -->
+<main>
+  <!-- wp:query {"queryId":1,"query":{"perPage":10,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true}} -->
+  <div class="wp-block-query">
+    <!-- wp:post-template -->
+      <!-- wp:post-title /-->
+      <!-- wp:post-excerpt /-->
+    <!-- /wp:post-template -->
+  </div>
+  <!-- /wp:query -->
+</main>
+<!-- /wp:group -->
+<!-- wp:template-part {"slug":"footer"} /-->

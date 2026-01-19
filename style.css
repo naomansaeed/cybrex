@@ -33,3 +33,8 @@ Text Domain: cybrex
 body {
   scroll-behavior: smooth;
 }
+
+.site-title {
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 500;
+}

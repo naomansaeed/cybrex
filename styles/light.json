@@ -1,0 +1,26 @@
+{
+  "title": "Light",
+  "isDefault": false,
+  "settings": {
+    "color": {
+      "palette": [
+        { "color": "#e5f9f8", "slug": "background", "name": "Background" },
+        { "color": "#ffffff", "slug": "surface", "name": "Surface" },
+        { "color": "#1f2b2d", "slug": "text-primary", "name": "Primary Text" },
+        { "color": "#23717b", "slug": "text-secondary", "name": "Secondary Text" },
+        { "color": "#0d8a9e", "slug": "action", "name": "Action" }
+      ]
+    }
+  },
+  "styles": {
+    "color": {
+      "background": "#e5f9f8",
+      "text": "#1f2b2d"
+    },
+    "blocks": {
+      "core/group": {
+        "color": { "background": "#ffffff" }
+      }
+    }
+  }
+}
