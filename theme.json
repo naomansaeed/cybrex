@@ -1,0 +1,32 @@
+{
+  "version": 2,
+  "settings": {
+    "color": {
+      "palette": [
+        { "name": "Background", "slug": "bg", "color": "#1f2b2d" },
+        { "name": "Surface", "slug": "surface", "color": "#2a3a3d" },
+        { "name": "Primary Text", "slug": "text-primary", "color": "#e5f9f8" },
+        { "name": "Secondary Text", "slug": "text-secondary", "color": "#9caeb1" },
+        { "name": "Action", "slug": "action", "color": "#12b2c1" }
+      ],
+      "gradients": []
+    },
+    "layout": {
+      "contentSize": "720px",
+      "wideSize": "1200px"
+    }
+  },
+  "styles": {
+    "color": {
+      "background": "#1f2b2d",
+      "text": "#e5f9f8"
+    },
+    "blocks": {
+      "core/group": {
+        "color": {
+          "background": "#2a3a3d"
+        }
+      }
+    }
+  }
+}
